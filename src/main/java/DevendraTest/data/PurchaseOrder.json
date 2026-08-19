@@ -1,0 +1,17 @@
+[
+	{
+		"email"		: "ved18@gmail.com",
+		"password"	: "User@1234",
+		"product"	: "ZARA COAT 3"
+	},
+	{
+	
+		"email"		: "atestuser1@gmail.com",
+		"password"	: "User@1234",
+		"product"	: "ADIDAS ORIGINAL"	
+	}	
+]
+	
+	
+// format [{dataset: value,dataset: value,dataset: value,dataset: value } , {dataset: value,dataset: value,dataset: value,dataset: value } ]	
+	

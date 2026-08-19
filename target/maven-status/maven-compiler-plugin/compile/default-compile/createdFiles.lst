@@ -1,0 +1,10 @@
+POM\pageobjects\CartPage.class
+DevendraTest\SeleniumFrameworkDesign1\pageobjects\LandingPage.class
+POM\pageobjects\OrderPage.class
+POM\pageobjects\CheckOutPage.class
+POM\resources\ExtentReporterNG_22.class
+DevendraTest\data\DataReader.class
+DevendraTest\AbstractComponents\AbstractComponent.class
+POM\pageobjects\ConfirmationPage.class
+POM\pageobjects\ProductCatalogue.class
+POM\pageobjects\LandingPage.class

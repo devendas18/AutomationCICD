@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite parallel="tests" name="Suite">
+
+<groups>
+	<run>
+	<include name="ErrorHandling"/>
+	</run>
+</groups>
+
+  <test thread-count="5" name="Submit Order Test">
+    <classes>
+      <class name="DevendraTest.Tests.SubmitOrderTestSection20"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Login Page Error Validation Test">
+    <classes>
+      <class name="DevendraTest.Tests.ErrorValidation20"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="All Error Validation">
+    <classes>
+      <class name="DevendraTest.Tests.ErrorValidation2_20"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->

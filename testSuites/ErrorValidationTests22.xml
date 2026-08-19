@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite parallel="tests" name="Suite">
+<!-- need to add listeners with class name -->
+
+<listeners>
+<listener class-name="DevendraTest.TestComponents_20.Listeners22"/>
+</listeners>
+
+    <test thread-count="5" name="Submit Order Test">
+ <classes>
+      <class name="DevendraTest.Tests.SubmitOrderTestSection21_177_178"/>
+    </classes>
+      </test> <!-- Test -->
+      
+<test thread-count="5" name="Error Validation">
+    <classes>
+      <class name="DevendraTest.Tests.ErrorValidation2_20"/>
+    </classes>
+      </test>  <!--Test -->
+
+        <test thread-count="5" name="Login Page Error Validation Test">
+            <classes>
+      <class name="DevendraTest.Tests.ErrorValidation22_180_181"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->
